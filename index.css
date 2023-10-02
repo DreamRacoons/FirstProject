@@ -1,12 +1,3 @@
-/*  Code for the picture
-
-<div class="center pic">
-    <img src="Place-holder" width="400" alt="Picture Of Dream Racoons">
-</div>
-
-*/
-
-
 /*classes*/
 .dreamR {
     color: white;
@@ -89,5 +80,7 @@
   }
 
 body{
-    background-image: linear-gradient(to right, navy, lightblue);
+    height: 100vh;
+    background-image: linear-gradient(to bottom, navy, lightblue);
+    background-repeat: repeat-x;
 }
