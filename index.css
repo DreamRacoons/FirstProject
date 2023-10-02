@@ -26,14 +26,14 @@
 /*Place holders for button styling code*/
 .gb {
     border: none;
-    background-image: radial-gradient(black, rgb(70, 218, 70));
-    box-shadow: 0 0 10px rgb(70, 218, 70);
+    background-image: radial-gradient(navy, lightblue);
+    box-shadow: 0 0 10px lightblue;
 }
 .gb:hover {
     box-shadow: 
-    0 0 10px rgb(70, 218, 70),
-    0 0 24px rgb(70, 218, 70), 
-    0 0 38px rgb(70, 218, 70);
+    0 0 10px lightblue,
+    0 0 24px lightblue, 
+    0 0 38px lightblue;
 }
 
 .cb{
