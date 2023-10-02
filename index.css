@@ -1,0 +1,82 @@
+/*classes*/
+.dreamR {
+    color: white;
+    background-image: linear-gradient(to right, #6740DC, #421DAF);
+    border-radius: 15px;
+    padding-left: 5%;
+    border: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn {
+    margin: 20px;
+    width: 120x;
+    height: 55px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+/*Place holders for button styling code*/
+.gb {
+    border: none;
+    background-image: radial-gradient(black, rgb(70, 218, 70));
+    box-shadow: 0 0 10px rgb(70, 218, 70);
+}
+.gb:hover {
+    box-shadow: 
+    0 0 10px rgb(70, 218, 70),
+    0 0 24px rgb(70, 218, 70), 
+    0 0 38px rgb(70, 218, 70);
+}
+
+.cb{
+
+}
+.jb{
+    color: rgb(232, 252, 250);
+    text-shadow: 0 0 10px navy;
+    border: 1.5px black;
+    box-shadow: 0 0 10px navy;
+}
+.jb:hover {
+    background-image: linear-gradient(to bottom, navy, lightblue);
+    box-shadow: 
+    0 0 10px navy,
+    0 0 24px navy,
+    0 0 38px navy;
+
+}
+
+
+.ab{
+
+}
+
+
+/*ID's*/
+#OP {
+    opacity: 97%;
+}
+
+#glowFX {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 
+          0 0 5px #0bf4f3,
+          0 0 10px #0bf4f3,
+          0 0 20px #0bf4f3,
+          0 0 40px #0bf4f3,
+          0 0 80px #0bf4f3;
+  }
+
+body{
+    background-image: linear-gradient(to right, navy, lightblue);
+}
