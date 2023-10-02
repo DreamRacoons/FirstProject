@@ -1,9 +1,16 @@
 /*
 Note: Chris, Nav bar in at the top of the screen on the header
 Link websites to nav bar
+
+Note: btn grad, glow on hover
+
 */
 
 /*classes*/
+.topNav{
+
+}
+
 .dreamR {
     color: white;
     background-image: linear-gradient(to right, #6740DC, #421DAF);
