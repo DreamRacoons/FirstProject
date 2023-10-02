@@ -1,3 +1,8 @@
+/*
+Note: Chris, Nav bar in at the top of the screen on the header
+Link websites to nav bar
+*/
+
 /*classes*/
 .dreamR {
     color: white;
@@ -12,7 +17,7 @@
 }
 
 .btn {
-    margin: 20px;
+    margin: 60px;
     width: 120x;
     height: 55px;
     border-radius: 4px;
