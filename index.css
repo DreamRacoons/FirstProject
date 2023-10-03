@@ -23,6 +23,10 @@ Note: btn grad, glow on hover
     text-align: center;
 }
 
+.flick{
+    border-radius: 4px;
+}
+
 .btn {
     margin: 60px;
     width: 120x;
@@ -64,7 +68,6 @@ Note: btn grad, glow on hover
     0 0 38px gold;
 
 }
-
 
 .jb{
     background-image: linear-gradient(to bottom, magenta, rgb(26, 5, 26));
