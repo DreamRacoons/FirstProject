@@ -9,7 +9,7 @@ Note: btn grad, glow on hover
 /*classes*/
 .topnav {
     color: white;
-    background-image: linear-gradient(to right, #6740DC, #421DAF);
+    background-image: linear-gradient(to right, #6740DC, #421DAF, #25087a);
     border-radius: 15px;
     border: none;
     overflow: hidden;
