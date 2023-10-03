@@ -66,7 +66,7 @@ Note: btn grad, glow on hover
 
 
 .jb{
-    background-color: linear-gradient(to bottom, rgb(148, 33, 148), rgb(26, 5, 26))
+    background-color: linear-gradient(to bottom, rgb(148, 33, 148), rgb(26, 5, 26));
     color: rgb(232, 252, 250);
     text-shadow: 0 0 10px magenta;
     border: 1.5px black;
