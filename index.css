@@ -38,10 +38,11 @@ Note: btn grad, glow on hover
 /*Place holders for button styling code*/
 .gb {
     border: none;
-    background-image: radial-gradient(navy, lightblue);
+    background-image: linear-gradient(to bottom, lightblue, navy);
     box-shadow: 0 0 10px lightblue;
 }
 .gb:hover {
+    background-image: radial-gradient(navy, lightblue);
     box-shadow: 
     0 0 10px lightblue,
     0 0 24px lightblue, 
@@ -66,16 +67,14 @@ Note: btn grad, glow on hover
 
 
 .jb{
-    background-color: magenta;
-    color: rgb(232, 252, 250);
-    text-shadow: 0 0 10px magenta;
-    border: 1.5px black;
+    background-image: linear-gradient(to bottom, magenta, rgb(26, 5, 26));
+    border: none;
     box-shadow: 
     0 0 10px magenta,
     0 0 15px magenta;
 }
 .jb:hover {
-    background-image: linear-gradient(to bottom, magenta, rgb(26, 5, 26));
+    background-image: radial-gradient(magenta, rgb(26, 5, 26));
     box-shadow: 
     0 0 10px magenta,
     0 0 24px magenta,
@@ -88,12 +87,9 @@ Note: btn grad, glow on hover
     border: none;
     background-image: linear-gradient(to bottom, orange, purple);
     box-shadow: 0 0 10px orange;
-    z-index: 2;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
 }
 .ab:hover{
-    background-color: orangered;
+    background-image: radial-gradient(orange, orangered);
     box-shadow: 
     0 0 10px orange,
     0 0 24px orange,
@@ -117,6 +113,6 @@ Note: btn grad, glow on hover
 
 body{
     height: 100vh;
-    background-image: linear-gradient(to bottom, navy, lightblue);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 83), navy, lightblue);
     background-repeat: repeat-x;
 }
