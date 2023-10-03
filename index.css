@@ -1,4 +1,16 @@
+/*
+Note: Chris, Nav bar in at the top of the screen on the header
+Link websites to nav bar
+
+Note: btn grad, glow on hover
+
+*/
+
 /*classes*/
+.topNav{
+
+}
+
 .dreamR {
     color: white;
     background-image: linear-gradient(to right, #6740DC, #421DAF);
@@ -12,7 +24,7 @@
 }
 
 .btn {
-    margin: 20px;
+    margin: 60px;
     width: 120x;
     height: 55px;
     border-radius: 4px;
@@ -37,20 +49,36 @@
 }
 
 .cb{
+    background-image: radial-gradient(gold, goldenrod);
+    border: none;
+    box-shadow: 0 0 10px yellow;
+}
+.cb:hover{
+    background-image: radial-gradient(orange, yellow);
+    border: 1.5px yellow;
+    box-shadow: 
+    0 0 10px gold,
+    0 0 24px gold,
+    0 0 38px gold;
 
 }
+
+
 .jb{
+    background-color: magenta;
     color: rgb(232, 252, 250);
-    text-shadow: 0 0 10px navy;
+    text-shadow: 0 0 10px magenta;
     border: 1.5px black;
-    box-shadow: 0 0 10px navy;
+    box-shadow: 
+    0 0 10px magenta,
+    0 0 15px magenta;
 }
 .jb:hover {
-    background-image: linear-gradient(to bottom, navy, lightblue);
+    background-image: linear-gradient(to bottom, magenta, rgb(26, 5, 26));
     box-shadow: 
-    0 0 10px navy,
-    0 0 24px navy,
-    0 0 38px navy;
+    0 0 10px magenta,
+    0 0 24px magenta,
+    0 0 38px magenta;
 
 }
 
@@ -71,36 +99,8 @@
     0 0 38px orange;
 }
 
-.ab:before, .ab:after {
-    content: "";
-    left: 0;
-    width: 100%;
-    height: 50%;
-    right: 0;
-    z-index: -1;
-    background: #00aced;
-    box-shadow: 0 0 5px #00aced;
-    transition: all 0.3s ease;
-}
-
-.ab:before {
-    top: 0;
-}
-
-.ab:after {
-    bottom: 0;
-}
-
-.ab:hover:after, .ab:hover:before {
-    height: 0;
-    background-color: darkslategray;
-}
-
 
 /*ID's*/
-#OP {
-    opacity: 97%;
-}
 
 #glowFX {
     position: relative;
