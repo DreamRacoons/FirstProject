@@ -7,13 +7,33 @@ Note: btn grad, glow on hover
 */
 
 /*classes*/
-.topNav{
-
+.topnav {
+    color: white;
+    background-image: linear-gradient(to right, #6740DC, #421DAF);
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 2%;
 }
+.topnav a {
+    float: right;
+    color: white;
+    text-shadow: 
+    0 0 5px blue;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a.active {
+    float: left;
+}
+
 
 .dreamR {
     color: white;
-    background-image: linear-gradient(to right, #6740DC, #421DAF);
+    
     border-radius: 15px;
     padding-left: 5%;
     border: none;
@@ -102,6 +122,20 @@ Note: btn grad, glow on hover
 
 
 /*ID's*/
+#topNav{
+    position: relative;
+    font-size: 100%;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 
+          0 0 5px #0bf4f3;
+}
+#topNav:hover{
+    text-shadow: 
+    0 0 5px skyblue,
+    0 0 10px lightseagreen,
+    0 0 10px lightseagreen,
+    0 0 20px lightseagreen;
+}
 
 #glowFX {
     position: relative;
