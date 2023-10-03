@@ -67,14 +67,14 @@ Note: btn grad, glow on hover
 
 
 .jb{
-    background-image: linear-gradient(to bottom, magenta, rgb(26, 5, 26));
+    background-color: magenta;
     border: none;
     box-shadow: 
     0 0 10px magenta,
     0 0 15px magenta;
 }
 .jb:hover {
-    background-image: radial-gradient(magenta, rgb(26, 5, 26));
+    background-image: linear-gradient(to bottom, rgb(125, 41, 125), rgb(26, 5, 26));
     box-shadow: 
     0 0 10px magenta,
     0 0 24px magenta,
