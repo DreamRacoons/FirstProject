@@ -49,7 +49,8 @@ Note: btn grad, glow on hover
 }
 
 .cb{
-    background-image: radial-gradient(gold, goldenrod);
+    /* background-image: radial-gradient(gold, goldenrod); */
+    background-image: linear-gradient(to bottom, gold, goldenrod);
     border: none;
     box-shadow: 0 0 10px yellow;
 }
