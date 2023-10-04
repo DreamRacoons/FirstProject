@@ -122,6 +122,8 @@ Note: btn grad, glow on hover
 
 /*ID's*/
 #topNav{
+    margin-top: 1%;
+    margin-right: 1%;
     position: relative;
     font-size: 100%;
     font-family: 'Anton', sans-serif;
@@ -137,6 +139,7 @@ Note: btn grad, glow on hover
 }
 
 #glowFX {
+    color: white;
     position: relative;
     font-size: 50px;
     font-family: 'Anton', sans-serif;
@@ -152,4 +155,36 @@ body{
     height: 100vh;
     background-image: linear-gradient(to bottom, rgb(0, 0, 83), navy, lightblue);
     background-repeat: repeat-x;
+}
+
+/* 
+    Portfolio only css
+*/
+
+/* classes */
+.p {
+    border: none;
+}
+
+/* ID's */
+#list {
+    color: white;
+    position: relative;
+    font-size: 100%;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 
+          0 0 5px #0bf4f3,
+          0 0 10px #0bf4f3,
+          0 0 20px #0bf4f3,
+          0 0 40px #0bf4f3,
+          0 0 80px #0bf4f3;
+}
+#list:hover {
+    cursor: pointer;
+    text-shadow: 
+          0 0 5px navy,
+          0 0 10px navy,
+          0 0 20px green,
+          0 0 40px lightgreen,
+          0 0 80px lightgreen;
 }
