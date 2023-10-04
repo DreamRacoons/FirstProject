@@ -24,19 +24,13 @@ Note: btn grad, glow on hover
     padding: 16px 16px;
     text-decoration: none;
     font-size: 20px;
+    background-image: radial-gradient(navy, lightblue);
+    border-radius: 5px;
+    
 }
 
 .topnav a.active {
     float: left;
-}
-
-
-.dreamR {
-    color: white;
-    
-    border-radius: 15px;
-    padding-left: 5%;
-    border: none;
 }
 
 .center{
@@ -58,6 +52,11 @@ Note: btn grad, glow on hover
     background: transparent;
     cursor: pointer;
     transition: all 0.4s ease;
+}
+
+.portBtn{
+    border: none;
+    background-image: radial-gradient(navy, lightblue);
 }
 
 /*Place holders for button styling code*/
